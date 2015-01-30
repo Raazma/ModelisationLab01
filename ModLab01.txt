@@ -1,0 +1,46 @@
+#1 Puissance 4
+
+A: Uc01
+B: Jouer a puissance 4
+C: Description: Le Joueur joue son tour il place une piece dans une colonne 
+D: Acteurs:Les Joueurs 1 et 2
+E: Pre-Condition: Avoir 2 joueurs
+F: Enchênement:
+	1)Determiner le jouer qui debute
+	2)Joueur joue son tour
+	3)Verification du coup si il est Correct
+	4)Verififier si 4 jeton aligner si oui aller Uc02
+	5)verifier si le tableau est pleinsi oui aler Uc03
+	6)retour a L'etape 2
+G: Post-Condition:
+	1)determiner la Fin de parti 
+	2)Determine le gagnant ou Parti null
+-----------------------------------------------------------------------------
+A:Uc02
+B:4 jetons allignés
+C:Description:Fin de partie on determine le gagnant et on reisinialiser la partie
+D:Les Joueurs
+E: Pre-Condition : Uc01
+F: Enchênement:
+	1)Determination du gagnant
+	2)Reinisialisation
+G: Post-Condition: 
+	1)Tableaux Vide
+-----------------------------------------------------------------------------
+A: Uc03
+B: Tableau Plein
+C: Description: Le tableau est plein de jetons la parti est donc null aucun gagnant n'est déclaré
+D: Acteur: Les Joueurs
+E: Pre-Condition: Uc01
+F: Enchênement:
+	1)Reinitialisation du tableau
+G: Post-Condition:
+	1)Tableau Vide
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+#2 Sation Service
+
+1) Le client est L'acteur car il actionne tout les evenement
+2) Non Car il est un Client
+3) 
+4)
