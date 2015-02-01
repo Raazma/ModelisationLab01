@@ -42,5 +42,6 @@ G: Post-Condition:
 
 1) Le client est L'acteur car il actionne tout les evenement
 2) Non Car il est un Client
-3) 
-4)
+3) Oui.
+4) le chef d'atelier est l'acteur qui a deux Uc Principale Gestion qui se separe encore exemple:gestion du budget des commandes
+etc  et le coter mecanique qui se separe aussi encore exemple examen ou reparation ou maintenance etc
